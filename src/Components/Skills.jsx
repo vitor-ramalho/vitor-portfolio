@@ -4,9 +4,7 @@ import CSS from '../Assets/css.png';
 import JavaScript from '../Assets/javascript.png';
 import ReactImg from '../Assets/react.png';
 import Node from '../Assets/node.png';
-import FireBase from '../Assets/firebase.png';
-import AWS from '../Assets/aws.png';
-import GitHub from '../Assets/github.png';
+import Typescript from '../Assets/ts.png';
 import Tailwind from '../Assets/tailwind.png';
 import Mongo from '../Assets/mongo.png';
 
@@ -42,8 +40,8 @@ const Skills = () => {
             <p className='my-4'>ReactJs</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={GitHub} alt="HTML Icon" />
-            <p className='my-4'>GitHub</p>
+            <img className='w-20 mx-auto' src={Typescript} alt="HTML Icon" />
+            <p className='my-4'>TypeScript</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={Mongo} alt="HTML Icon" />

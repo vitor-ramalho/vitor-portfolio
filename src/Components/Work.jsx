@@ -1,6 +1,9 @@
 import React from 'react';
 import WorkImg from '../Assets/workImg.jpeg';
+import Jestec from '../Assets/jestec.png';
 import realEstate from '../Assets/realestate.jpg';
+import Krypt from '../Assets/sendEther.png';
+import Manage from '../Assets/manage.PNG'
 
 const Work = () => {
   return (
@@ -16,19 +19,35 @@ const Work = () => {
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
           {/**Grid Item */}
           <div 
-          style={{ backgroundImage: `url(${realEstate})` }}
+          style={{ backgroundImage: `url(${Jestec})` }}
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             {/**Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                ReactJS Application
+                Jestec Soluções
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://jestecsolucoes.com.br/' target='_blank' rel="noreferrer">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-vold text-lg'>Live</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/**Grid Item */}
+          <div 
+          style={{ backgroundImage: `url(${Krypt})` }}
+          className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            {/**Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                Krypt - Send Ether
               </span>
               <div className='pt-8 text-center'>
 
-                <a href='/'>
+                <a href='https://krypt-jet.vercel.app/' target='_blank' rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-vold text-lg'>Demo</button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/vitor-ramalho/krypt' target='_blank' rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-vold text-lg'>Code</button>
                 </a>
 
@@ -37,40 +56,19 @@ const Work = () => {
           </div>
           {/**Grid Item */}
           <div 
-          style={{ backgroundImage: `url(${WorkImg})` }}
+          style={{ backgroundImage: `url(${Manage})` }}
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             {/**Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                ReactJS Application
+                Manage Landing Page
               </span>
               <div className='pt-8 text-center'>
 
-                <a href='/'>
+                <a href='https://manage-landingpage-henna.vercel.app/' target='_blank' rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-vold text-lg'>Demo</button>
                 </a>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-vold text-lg'>Code</button>
-                </a>
-
-              </div>
-            </div>
-          </div>
-          {/**Grid Item */}
-          <div 
-          style={{ backgroundImage: `url(${WorkImg})` }}
-          className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-            {/**Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                ReactJS Application
-              </span>
-              <div className='pt-8 text-center'>
-
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-vold text-lg'>Demo</button>
-                </a>
-                <a href='/'>
+                <a href='https://github.com/vitor-ramalho/manage-landingpage' target='_blank' rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-vold text-lg'>Code</button>
                 </a>
 
@@ -84,7 +82,7 @@ const Work = () => {
             {/**Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                ReactJS Application
+                Em Breve
               </span>
               <div className='pt-8 text-center'>
 
@@ -104,7 +102,7 @@ const Work = () => {
             {/**Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                ReactJS Application
+                Em Breve
               </span>
               <div className='pt-8 text-center'>
 
@@ -124,7 +122,7 @@ const Work = () => {
             {/**Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                ReactJS Application
+                Em Breve
               </span>
               <div className='pt-8 text-center'>
 

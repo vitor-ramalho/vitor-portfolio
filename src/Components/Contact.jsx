@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 const Contact = () => {
   return (
     <div name='contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4'>
-      <form method="POST" className='flex flex-col max-w-[600px] w-full' action="https://getform.io/f/dffe3b5d-0fc0-4029-9022-d572c5f0ffac">
+      <form  className='flex flex-col max-w-[600px] w-full' action="https://getform.io/f/dffe3b5d-0fc0-4029-9022-d572c5f0ffac">
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 border-[#00D1FF] text-gray-300'>
             Contato
