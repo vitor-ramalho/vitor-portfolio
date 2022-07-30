@@ -140,7 +140,7 @@ const Navbar = () => {
               href='https://wa.me/5531920025047'
               target="_blank" rel="noreferrer"
             >
-              Resume <FaWhatsapp size={30} />
+              WhatsApp <FaWhatsapp size={30} />
             </a>
           </li>
         </ul>
