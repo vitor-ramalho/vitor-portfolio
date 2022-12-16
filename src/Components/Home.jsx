@@ -12,7 +12,7 @@ const Home = () => {
           Seja bem vindo ao meu site! Aqui irei exibir minha experiência como desenvolvedor, tecnologias já utilizadas e alguns projetos já desenvolvidos.
         </p>
         <div>
-          <a href="https://drive.google.com/file/d/1AuXv64J9b0UqiIziOlo9ES-m3EyVXTKp/view?usp=sharing" target="_blank" rel="noreferrer">
+          <a href="https://drive.google.com/file/d/1yR_2aZwI1KeW_roEEqz7uVvOFVysg3yY/view?usp=sharing" target="_blank" rel="noreferrer">
             <button className='text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-[#00D1FF] hover:border-[#00D1FF] duration-150'>
               Baixe meu currículo
               <span className='group-hover:rotate-90 duration-300'>
